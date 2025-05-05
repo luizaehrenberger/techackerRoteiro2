@@ -1,0 +1,31 @@
+# Ambiente virtual
+venv/
+.env
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos de testes
+*.test.*
+*.coverage
+
+# Backup
+*.bak
+
+# node (caso use Wappalyzer local com npm)
+node_modules/
