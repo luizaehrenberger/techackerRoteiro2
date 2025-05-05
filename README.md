@@ -41,7 +41,6 @@ ReconApp é um aplicativo em linha de comando (CLI) para auxiliar na fase de rec
 ## 2. Arquitetura do Sistema
 O ReconApp segue um modelo modular:
 
-````
 
 main.py
 \|- portscan.py
@@ -50,7 +49,6 @@ main.py
 \|- whois\_lookup.py
 \|- wappalyzer.py
 
-```
 
 Cada módulo é responsável por uma funcionalidade. O `main.py` atua como controladora e interface do usuário.
 
@@ -64,11 +62,9 @@ Cada módulo é responsável por uma funcionalidade. O `main.py` atua como contr
 
 ## 5. Considerações Finais
 O ReconApp se mostrou eficaz como ferramenta de reconhecimento. Sua arquitetura modular facilita a manutenção e expansão. Todas as ferramentas integradas funcionaram corretamente nos testes realizados.
-```
 
----
 
-## Mock de Screenshot CLI
+## Mock de CLI
 
 Bem-vindo ao ReconApp!
 1. Portscan
